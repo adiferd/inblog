@@ -17,3 +17,14 @@ fields:
 - type: textarea
   name: excerpt
   label: excerpt
+- name: tag
+  type: tag_list
+  default: []
+  label: tag
+  description: post tags
+- name: post_image
+  type: file
+  config:
+    maxSize: 250
+  label: post image
+  description: image header
